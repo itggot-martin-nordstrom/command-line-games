@@ -42,7 +42,7 @@ Den går att använda på två sätt.
 
 Jotto är en ordlek som man vanligtvis spelar två och två mot varandra. Den här uppgiften går ut på att skapa envariant av Jotto där man spelar mot datorn. För att läsa mer om jotto, se http://en.wikipedia.org/wiki/Jotto
 
-Programmet väljer slumpvis ett ord (med bara tre bokstäver) från en fil (här kan du skapa en egen ordlista: [http://app.aspell.net/create](http://app.aspell.net/create))
+Programmet väljer slumpvis ett ord (med bara tre bokstäver) från en fil använd filen words.txt.
 
 Programmet ber sen spelaren att gissa vilket ordet är.
 
@@ -113,7 +113,7 @@ Hitta på ett sätt att visa om användaren har gissat på rätt siffra, men på
 
 Skapa en kommandopromptsbaserad version av spelet hänga gubbe.
 
-Spelet ska slumpmässigt välja ett ord från en fil med ord (här kan du skapa en egen ordlista: [http://app.aspell.net/create](http://app.aspell.net/create))
+Spelet ska slumpmässigt välja ett ord från en fil med ord. Använd words.txt.
 
 Du får själv bestämma hur spelet bestämmer hur många gissningar användaren får.
 
