@@ -12,7 +12,14 @@ Om hen gissar fel ska programmet skriva ut att gissningen var för låg eller f�
 
 När användaren gissat rätt avslutas spelet, och antalet gissningar skrivs ut.
 
-Ex:
+### Att slumpa tal
+I ruby finns en inbyggd funktion för att slumpa ett tal `rand()`.
+Den går att använda på två sätt.
+* `rand()` slumpar ett flyttal mellan 0 och 1.
+* `rand(num)` slumpar ett tal mellan `0` och `num-1` .
+   * ex. `rand(10)` slumpar ett tal mellan `0` och `9`.
+
+### Exempel
 
 ```
 > Welcome To "Guess the Secret Number"!
@@ -45,7 +52,7 @@ Detta skall upprepas tills spelaren gissar rätt, då programmet skall tala om
 
 Programmet frågar sen om spelaren vill spela en gång till.
 
-Ex: (Det hemliga ordet är ”eat”)
+### Exempel: (Det hemliga ordet är ”eat”)
 
 ```
 > Welcome to Jotto!
@@ -74,7 +81,7 @@ Du får själv bestämma hur spelet bestämmer hur många gissningar användaren
 
 I vår version av Mastermind kommer vi byta utfärgerna mot siffror och markeringar kommer ske med ”x” och ”o” istället. (I vår version bryr vi oss inte om att markera om användaren har gissat på rätt siffra, men fel plats)
 
-Ex:
+### Exempel
 
 | Rätt rad (hemlig) | 1    | 4    | 5    | 4    |
 | ----------------- | ---- | ---- | ---- | ---- |
@@ -110,7 +117,7 @@ Spelet ska slumpmässigt välja ett ord från en fil med ord (här kan du skapa 
 
 Du får själv bestämma hur spelet bestämmer hur många gissningar användaren får.
 
-Ex:
+### Exempel
 
 ```
 > Welcome to Hangman!
@@ -133,7 +140,7 @@ Ex:
 
 Gör det möjligt för användaren gissa på hela ordet
 
-Ex:
+### Exempel
 
 ```
 ...
@@ -150,7 +157,7 @@ Ex:
 
 Skapa ASCII-baserad grafik för att illustrera gubben
 
-Ex:
+### Exempel
 
 ```
    ____
